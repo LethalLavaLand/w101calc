@@ -20,15 +20,18 @@
         WebGL builds are not supported on mobile devices.
       </div>
       <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">DamageCalc</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/v1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/v1.data.br",
-        frameworkUrl: buildUrl + "/v1.framework.js.br",
-        codeUrl: buildUrl + "/v1.wasm.br",
+        dataUrl: buildUrl + "/v1.data",
+        frameworkUrl: buildUrl + "/v1.framework.js",
+        codeUrl: buildUrl + "/v1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "LethalDolphin",
         productName: "DamageCalc",
